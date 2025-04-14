@@ -10,7 +10,9 @@ Practice working with nested loops.
 Use if-elif-else conditions to implement logic.
 Handle user input to create dynamic patterns.
 Understand alignment using spaces and characters.
+
 🚀 Patterns to Implement
+
 1️⃣ Right-angled Triangle
 
 *
