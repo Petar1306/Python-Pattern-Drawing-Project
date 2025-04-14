@@ -20,6 +20,7 @@ Understand alignment using spaces and characters.
 ***
 ****
 *****
+
 2️⃣ Square with Hollow Center
 
 *****
@@ -27,6 +28,7 @@ Understand alignment using spaces and characters.
 *   *
 *   *
 *****
+
 3️⃣ Diamond
 
   *
@@ -34,12 +36,14 @@ Understand alignment using spaces and characters.
 *****
  ***
   *
+  
 4️⃣ Left-angled Triangle
 
 ****
 ***
 **
 *
+
 5️⃣ Hollow Square
 
 ******
@@ -48,24 +52,28 @@ Understand alignment using spaces and characters.
 *    *
 *    *
 ******
+
 6️⃣ Pyramid
 
    *
   ***
  *****
 *******
+
 7️⃣ Reverse Pyramid (New!)
 
 *******
  *****
   ***
    *
+   
 8️⃣ Rectangle with Hollow Center (New!)
 
 ********
 *      *
 *      *
 ********
+
 📋 Instructions
 1️⃣ Run the Program
 Start the program and choose a pattern from the menu.
