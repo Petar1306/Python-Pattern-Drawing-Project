@@ -45,7 +45,9 @@ elif choice == 5:  # Hollow Square
 
 elif choice == 6:  # Pyramid
     # TODO: Center-align stars to form a pyramid
-    pass
+    for i in range(1, rows + 1):
+        print(' ' * (rows - i), end='')
+        print('*' * (2 * i - 1))
 
 elif choice == 7:  # Reverse Pyramid
     # TODO: Create an upside-down pyramid
