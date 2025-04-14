@@ -47,6 +47,7 @@ elif choice == 5:  # Hollow Square
     # TODO: Similar to choice 2 but ensure perfect square logic
     pass
 
+
 elif choice == 6:  # Pyramid
     for i in range(1, rows + 1):
         print(' ' * (rows - i), end='')
