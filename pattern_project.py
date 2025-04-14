@@ -29,7 +29,11 @@ if choice == 1:  # Right-angled Triangle
 
 elif choice == 2:  # Square with Hollow Center
     # TODO: Create a square with a hollow center
-    pass
+    for i in range(1, size + 1):
+        if i == 1 or i == size:
+            print('*' * size)
+        else:
+            print('*' + ' ' * (size - 2) + '*')
 
 elif choice == 3:  # Diamond
     # TODO: Create a diamond shape using loops
