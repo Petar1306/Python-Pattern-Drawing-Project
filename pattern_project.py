@@ -44,8 +44,11 @@ elif choice == 4:  # Left-angled Triangle
         print('*' * i)
 
 elif choice == 5:  # Hollow Square
-    # TODO: Similar to choice 2 but ensure perfect square logic
-    pass
+    for i in range(1, size + 1):
+        if i == 1 or i == size:
+            print('*' * size)
+        else:
+            print('*' + ' ' * (size - 2) + '*')
 
 
 elif choice == 6:  # Pyramid
