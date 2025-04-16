@@ -50,15 +50,15 @@ elif choice == 5:  # Hollow Square
         else:
             print('*' + ' ' * (size - 2) + '*')
 
-
 elif choice == 6:  # Pyramid
     for i in range(1, rows + 1):
         print(' ' * (rows - i), end='')
         print('*' * (2 * i - 1))
 
 elif choice == 7:  # Reverse Pyramid
-    # TODO: Create an upside-down pyramid
-    pass
+    for i in range(rows, 0, -1):
+        print(' ' * (rows - i), end='')
+        print('*' * (2 * i - 1))
 
 elif choice == 8:  # Rectangle with Hollow Center
     # TODO: Handle separate width and height inputs for rectangle
