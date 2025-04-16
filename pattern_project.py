@@ -66,6 +66,7 @@ elif choice == 8:  # Rectangle with Hollow Center
     width = int(input("Enter the width of the rectangle: "))
     height = int(input("Enter the height of the rectangle: "))
     pass
+
 elif choice == 9:  # Allow the user to exit
     print('Goodbye')
 else:
