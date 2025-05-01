@@ -63,10 +63,13 @@ elif choice == 7:  # Reverse Pyramid
         print('*' * (2 * i - 1))
 
 elif choice == 8:  # Rectangle with Hollow Center
-    # TODO: Handle separate width and height inputs for rectangle
     width = int(input("Enter the width of the rectangle: "))
     height = int(input("Enter the height of the rectangle: "))
-    pass
+    for i in range(1, height + 1):
+        if i == 1 or i == height:
+            print('*' * width)
+        else:
+            print('*' + ' ' * (width - 2) + '*')
 
 elif choice == 9:  # Arrow
     for i in range(1, rows + 1):
