@@ -11,7 +11,8 @@ print("5. Hollow Square")
 print("6. Pyramid")
 print("7. Reverse Pyramid")
 print("8. Rectangle with Hollow Center")
-print("9. Exit")
+print("9. Save Pattern")
+print("10. Exit")
 
 # Step 2: Get the user's choice
 choice = int(input("Enter the number corresponding to your choice: "))
@@ -67,7 +68,7 @@ elif choice == 8:  # Rectangle with Hollow Center
     height = int(input("Enter the height of the rectangle: "))
     pass
 
-elif choice == 9:  # Allow the user to exit
+elif choice == 10:  # Allow the user to exit
     print('Goodbye')
 else:
     print("❌ Invalid choice! Please restart the program.")
