@@ -81,7 +81,12 @@ while True:
 
     elif choice == 10:  # Allow the user to exit
         print('Goodbye')
+        break
     else:
         print("❌ Invalid choice! Please restart the program.")
 
     # Step 5: Optional - Allow the user to restart or exit
+    restart = input("\nDo you want to restart the program? (yes/no):").lower()
+    if restart != "yes":
+        print("\nGoodbye")
+        break
