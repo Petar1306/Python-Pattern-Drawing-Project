@@ -11,14 +11,14 @@ print("5. Hollow Square")
 print("6. Pyramid")
 print("7. Reverse Pyramid")
 print("8. Rectangle with Hollow Center")
-print("9. Save Pattern")
+print("9. Arrow")
 print("10. Exit")
 
 # Step 2: Get the user's choice
 choice = int(input("Enter the number corresponding to your choice: "))
 
 # Step 3: Get dimensions based on choice
-if choice in [1, 3, 4, 6, 7]:  # Patterns that need the number of rows
+if choice in [1, 3, 4, 6, 7, 9]:  # Patterns that need the number of rows
     rows = int(input("Enter the number of rows: "))
 elif choice in [2, 5]:  # Patterns that need size
     size = int(input("Enter the size of the square/rectangle: "))
@@ -67,6 +67,12 @@ elif choice == 8:  # Rectangle with Hollow Center
     width = int(input("Enter the width of the rectangle: "))
     height = int(input("Enter the height of the rectangle: "))
     pass
+
+elif choice == 9:  # Arrow
+    for i in range(1, rows + 1):
+        print("*" * i)
+    for j in range(rows - 1, 0, -1):
+        print("*" * j)
 
 elif choice == 10:  # Allow the user to exit
     print('Goodbye')
